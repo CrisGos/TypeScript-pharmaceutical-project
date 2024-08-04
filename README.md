@@ -1,1 +1,1 @@
-# TypeScript-pharmaceutical-project
+# typescript-microservices-pharmaceutical
