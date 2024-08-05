@@ -29,4 +29,15 @@ export default class PrescriptionService {
     async deletePrescriptions(id: number) {
         return await this.prescriptionRepository.deleteById(id);
     }
+
+    // async checkPrescriptionCredentials(
+    //     patientId: number,
+    //     password: string
+    //   ): Promise<Prescription> {
+    //     const prescription = await this.getPrescriptionsByPatientId(patientId);
+    //     if (prescription && prescription.password === password) {
+    //       return prescription;
+    //     }
+    //     throw new Error("Invalid credentials");
+    //   }
 }

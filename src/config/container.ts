@@ -5,6 +5,7 @@ import PatientService from '../services/medicineService';
 import PatientRepository from '../repositories/medicineRepository';
 import PrescriptionService from '../services/prescriptionService';
 import PrescriptionRepository from '../repositories/prescriptionRepository';
+import DataAnalysis from '../repositories/dataAnalysisRepository';
 
 
 container.registerSingleton<MedicineRepository>(MedicineRepository);
@@ -15,3 +16,5 @@ container.registerSingleton<PatientService>(PatientService);
 
 container.registerSingleton<PrescriptionRepository>(PrescriptionRepository);
 container.registerSingleton<PrescriptionService>(PrescriptionService);
+
+container.registerSingleton<DataAnalysis>(DataAnalysis);
