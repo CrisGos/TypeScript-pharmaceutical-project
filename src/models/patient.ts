@@ -6,8 +6,8 @@ import {
     PrimaryKey,
     AutoIncrement,
     HasMany,
-    AllowNull,
 } from 'sequelize-typescript';
+import { Prescription } from './prescription';
 
 
 @Table({
@@ -39,4 +39,7 @@ export class Patient extends Model {
         allowNull: false,
     })
     medicalRecord!: string;
+
+    @HasMany(() => Prescription)
+    prescriptions!: Prescription[];
 }
