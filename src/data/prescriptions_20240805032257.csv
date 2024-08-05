@@ -1,0 +1,4 @@
+ID,Dosage,Frequency,Duration,Medicine ID,Patient ID,Created At,Updated At
+1,1 pill,twice a day,10 days,1,1,Sun Aug 04 2024 20:21:57 GMT-0500 (hora estándar de Colombia),Sun Aug 04 2024 20:21:57 GMT-0500 (hora estándar de Colombia)
+2,10 ml,once a day,5 days,2,1,Sun Aug 04 2024 20:22:05 GMT-0500 (hora estándar de Colombia),Sun Aug 04 2024 20:22:05 GMT-0500 (hora estándar de Colombia)
+3,2 drops,thrice a day,7 days,5,1,Sun Aug 04 2024 20:22:15 GMT-0500 (hora estándar de Colombia),Sun Aug 04 2024 20:22:15 GMT-0500 (hora estándar de Colombia)
